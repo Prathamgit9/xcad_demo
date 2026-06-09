@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XCAD USA — Innovation through Design, Engineering & Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════
+       LOADER
+  ══════════════════════════════════════ -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <img src="https://www.xcadusa.com/wp-content/uploads/2023/12/XCAD_Logo.png" alt="XCAD USA" class="loader-logo">
+      <div class="loader-bar"><div class="loader-fill" id="loaderFill"></div></div>
+      <span class="loader-text">Loading</span>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════ -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+
+      <a href="https://www.xcadusa.com/" target="_blank" rel="noopener" class="logo-link">
+        <img src="https://www.xcadusa.com/wp-content/uploads/2023/12/XCAD_Logo.png" alt="XCAD USA" class="nav-logo">
+      </a>
+
+      <nav class="primary-nav" id="primaryNav">
+        <ul class="nav-list">
+          <li><a href="https://www.xcadusa.com/" target="_blank" class="nav-item">Home</a></li>
+          <li class="has-dropdown">
+            <a href="https://www.xcadusa.com/product-catalog/" target="_blank" class="nav-item nav-item--arrow">Products</a>
+            <div class="mega-dropdown">
+              <div class="mega-inner">
+                <div class="mega-col">
+                  <span class="mega-heading">Pivot Systems</span>
+                  <a href="https://www.xcadusa.com/product-catalog/pivot-sprinklers/" target="_blank">
+                    <img src="https://www.xcadusa.com/wp-content/uploads/2024/08/RADIUS-BK_sq.jpg" alt="">
+                    <span>Pivot Sprinklers</span>
+                  </a>
+                  <a href="https://www.xcadusa.com/product-catalog/center-pivot-2/" target="_blank">
+                    <img src="https://www.xcadusa.com/wp-content/uploads/2019/06/center-pivot.jpg" alt="">
+                    <span>Center Pivot</span>
+                  </a>
+                </div>
+                <div class="mega-col">
+                  <span class="mega-heading">Sprinklers & Valves</span>
+                  <a href="https://www.xcadusa.com/product-catalog/sprinklers/" target="_blank">
+                    <img src="https://www.xcadusa.com/wp-content/uploads/2019/09/x100-webpic_orig-e1569770128126.jpg" alt="">
+                    <span>Sprinklers</span>
+                  </a>
+                  <a href="https://www.xcadusa.com/product-catalog/valves/" target="_blank">
+                    <img src="https://www.xcadusa.com/wp-content/uploads/2024/10/SMV75PEG.jpg" alt="">
+                    <span>Valves</span>
+                  </a>
+                </div>
+                <div class="mega-col">
+                  <span class="mega-heading">Infrastructure</span>
+                  <a href="https://www.xcadusa.com/product-catalog/pipeline-safety/" target="_blank">
+                    <img src="https://www.xcadusa.com/wp-content/uploads/2024/10/CAVAR2.jpg" alt="">
+                    <span>Pipeline Safety</span>
+                  </a>
+                  <a href="https://www.xcadusa.com/product-catalog/canal-gates/" target="_blank">
+                    <img src="https://www.xcadusa.com/wp-content/uploads/2024/10/XGATE.jpg" alt="">
+                    <span>Canal Gates</span>
+                  </a>
+                  <a href="https://www.xcadusa.com/product-catalog/riser-valves/" target="_blank">
+                    <img src="https://www.xcadusa.com/wp-content/uploads/2024/10/ALVX44.jpg" alt="">
+                    <span>Riser Valves</span>
+                  </a>
+                </div>
+                <div class="mega-col">
+                  <span class="mega-heading">Field Systems</span>
+                  <a href="https://www.xcadusa.com/product-catalog/wheel-line/" target="_blank">
+                    <img src="https://www.xcadusa.com/wp-content/uploads/2019/06/center-pivot.jpg" alt="">
+                    <span>Wheel Line</span>
+                  </a>
+                  <a href="https://www.xcadusa.com/product-catalog/hand-line-solid-set/" target="_blank">
+                    <img src="https://www.xcadusa.com/wp-content/uploads/2024/10/Tuff-Tee.png" alt="">
+                    <span>Hand Line / Solid Set</span>
+                  </a>
+                </div>
+              </div>
+              <div class="mega-footer">
+                <a href="https://www.xcadusa.com/product-catalog/" target="_blank" class="mega-all-btn">View All Products →</a>
+                <a href="https://www.xcadusa.com/wp-content/uploads/2026/01/2026-XCAD-CAT-fnp-min.pdf" target="_blank" class="mega-catalog-btn">⬇ Download 2026 Catalog</a>
+              </div>
+            </div>
+          </li>
+          <li><a href="https://www.xcadusa.com/resources/" target="_blank" class="nav-item">Resources</a></li>
+          <li><a href="https://www.xcadusa.com/distributors/" target="_blank" class="nav-item">Distributors</a></li>
+          <li><a href="https://www.xcadusa.com/about-xcad/" target="_blank" class="nav-item">About</a></li>
+          <li><a href="https://www.xcadusa.com/contact-us/" target="_blank" class="nav-item">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://www.xcadusa.com/wp-content/uploads/2026/01/2026-XCAD-CAT-fnp-min.pdf"
+           target="_blank" rel="noopener" class="catalog-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          2026 Catalog
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <nav class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-header">
+      <img src="https://www.xcadusa.com/wp-content/uploads/2023/12/XCAD_Logo.png" alt="XCAD USA">
+      <button class="mobile-close" id="mobileClose">✕</button>
+    </div>
+    <ul class="mobile-links">
+      <li><a href="https://www.xcadusa.com/" target="_blank">Home</a></li>
+      <li class="mobile-has-sub">
+        <button class="mobile-sub-toggle">Products <span>+</span></button>
+        <ul class="mobile-sub">
+          <li><a href="https://www.xcadusa.com/product-catalog/pivot-sprinklers/" target="_blank">Pivot Sprinklers</a></li>
+          <li><a href="https://www.xcadusa.com/product-catalog/sprinklers/" target="_blank">Sprinklers</a></li>
+          <li><a href="https://www.xcadusa.com/product-catalog/center-pivot-2/" target="_blank">Center Pivot</a></li>
+          <li><a href="https://www.xcadusa.com/product-catalog/valves/" target="_blank">Valves</a></li>
+          <li><a href="https://www.xcadusa.com/product-catalog/pipeline-safety/" target="_blank">Pipeline Safety</a></li>
+          <li><a href="https://www.xcadusa.com/product-catalog/canal-gates/" target="_blank">Canal Gates</a></li>
+          <li><a href="https://www.xcadusa.com/product-catalog/riser-valves/" target="_blank">Riser Valves</a></li>
+          <li><a href="https://www.xcadusa.com/product-catalog/wheel-line/" target="_blank">Wheel Line</a></li>
+          <li><a href="https://www.xcadusa.com/product-catalog/hand-line-solid-set/" target="_blank">Hand Line / Solid Set</a></li>
+        </ul>
+      </li>
+      <li><a href="https://www.xcadusa.com/resources/" target="_blank">Resources</a></li>
+      <li><a href="https://www.xcadusa.com/distributors/" target="_blank">Distributors</a></li>
+      <li><a href="https://www.xcadusa.com/about-xcad/" target="_blank">About XCAD USA</a></li>
+      <li><a href="https://www.xcadusa.com/contact-us/" target="_blank">Contact Us</a></li>
+    </ul>
+    <a href="https://www.xcadusa.com/wp-content/uploads/2026/01/2026-XCAD-CAT-fnp-min.pdf" target="_blank" class="mobile-catalog-btn">⬇ Download 2026 Catalog</a>
+  </nav>
+
+  <!-- ══════════════════════════════════════
+       HERO
+  ══════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="hero-video-placeholder">
+        <img src="https://www.xcadusa.com/wp-content/uploads/2019/06/center-pivot.jpg" alt="Irrigation field" class="hero-bg-img">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-scanlines"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-eyebrow" data-animate="fade-up" data-delay="0">
+        <span class="eyebrow-dot"></span>
+        American-Made Irrigation Technology
+      </div>
+
+      <div class="hero-logo-wrap" data-animate="fade-up" data-delay="100">
+        <img src="https://www.xcadusa.com/wp-content/uploads/2023/12/XCAD_Logo.png" alt="XCAD USA" class="hero-logo-img">
+      </div>
+
+      <h1 class="hero-headline" data-animate="fade-up" data-delay="200">
+        <span class="line-wrap"><span class="line">Innovation Through</span></span>
+        <span class="line-wrap"><span class="line accent-line">Design, Engineering</span></span>
+        <span class="line-wrap"><span class="line">&amp; Experience</span></span>
+      </h1>
+
+      <p class="hero-sub" data-animate="fade-up" data-delay="350">
+        Precision water management solutions trusted by farmers and irrigators across the nation for over four decades.
+      </p>
+
+      <div class="hero-ctas" data-animate="fade-up" data-delay="450">
+        <a href="https://www.xcadusa.com/product-catalog/" target="_blank" class="cta-primary">
+          Explore Products
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="https://www.xcadusa.com/wp-content/uploads/2026/01/2026-XCAD-CAT-fnp-min.pdf" target="_blank" class="cta-secondary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          2026 Catalog PDF
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-stats" data-animate="fade-up" data-delay="550">
+      <div class="hero-stat">
+        <span class="stat-n" data-count="40">0</span><span class="stat-suf">+</span>
+        <span class="stat-l">Years Industry</span>
+      </div>
+      <div class="hero-stat-div"></div>
+      <div class="hero-stat">
+        <span class="stat-n" data-count="9">0</span>
+        <span class="stat-l">Product Lines</span>
+      </div>
+      <div class="hero-stat-div"></div>
+      <div class="hero-stat">
+        <span class="stat-n" data-count="200">0</span><span class="stat-suf">+</span>
+        <span class="stat-l">Product SKUs</span>
+      </div>
+      <div class="hero-stat-div"></div>
+      <div class="hero-stat">
+        <span class="stat-n">USA</span>
+        <span class="stat-l">Manufactured</span>
+      </div>
+    </div>
+
+    <div class="hero-scroll-cue">
+      <div class="scroll-wheel">
+        <div class="scroll-dot"></div>
+      </div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       PRODUCTS GRID
+  ══════════════════════════════════════ -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="section-head reveal">
+        <div class="section-tag">Product Catalog</div>
+        <h2 class="section-title">Complete Irrigation<br><em>Solutions</em></h2>
+        <p class="section-desc">Nine specialized product lines engineered for performance at every stage of water management.</p>
+        <a href="https://www.xcadusa.com/product-catalog/" target="_blank" class="view-all">View All Products →</a>
+      </div>
+
+      <div class="products-grid">
+
+        <!-- Row 1: 3 cols -->
+        <a href="https://www.xcadusa.com/product-catalog/pivot-sprinklers/" target="_blank" class="product-card reveal" data-reveal-delay="0">
+          <div class="card-img">
+            <img src="https://www.xcadusa.com/wp-content/uploads/2024/08/RADIUS-BK_sq.jpg" alt="Pivot Sprinklers" loading="lazy">
+            <div class="card-shine"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-num">01</div>
+            <h3 class="card-title">Pivot Sprinklers</h3>
+            <p class="card-desc">Radius series and XPR regulator systems for precision center pivot water distribution.</p>
+            <div class="card-arrow">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.xcadusa.com/product-catalog/sprinklers/" target="_blank" class="product-card reveal" data-reveal-delay="80">
+          <div class="card-img">
+            <img src="https://www.xcadusa.com/wp-content/uploads/2019/09/x100-webpic_orig-e1569770128126.jpg" alt="Sprinklers" loading="lazy">
+            <div class="card-shine"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-num">02</div>
+            <h3 class="card-title">Sprinklers</h3>
+            <p class="card-desc">End gun, impact, and multi-composite sprinkler systems including the Thunderbolt X100.</p>
+            <div class="card-arrow">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.xcadusa.com/product-catalog/center-pivot-2/" target="_blank" class="product-card reveal" data-reveal-delay="160">
+          <div class="card-img">
+            <img src="https://www.xcadusa.com/wp-content/uploads/2019/06/center-pivot.jpg" alt="Center Pivot" loading="lazy">
+            <div class="card-shine"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-num">03</div>
+            <h3 class="card-title">Center Pivot</h3>
+            <p class="card-desc">Booster pumps, Black Max drive line couplers, X-Spandable drive lines and U-joints.</p>
+            <div class="card-arrow">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <!-- Row 2: 2 wide + 1 -->
+        <a href="https://www.xcadusa.com/product-catalog/valves/" target="_blank" class="product-card product-card--wide reveal" data-reveal-delay="0">
+          <div class="card-img">
+            <img src="https://www.xcadusa.com/wp-content/uploads/2024/10/SMV75PEG.jpg" alt="Valves" loading="lazy">
+            <div class="card-shine"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-num">04</div>
+            <h3 class="card-title">Valves</h3>
+            <p class="card-desc">Seal-Matic control valves, X-MAX systems, butterfly valves, and brass ball valves for complete flow management.</p>
+            <div class="card-tags">
+              <span>Control Valves</span>
+              <span>Butterfly Valves</span>
+              <span>Ball Valves</span>
+            </div>
+            <div class="card-arrow">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.xcadusa.com/product-catalog/pipeline-safety/" target="_blank" class="product-card reveal" data-reveal-delay="120">
+          <div class="card-img">
+            <img src="https://www.xcadusa.com/wp-content/uploads/2024/10/CAVAR2.jpg" alt="Pipeline Safety" loading="lazy">
+            <div class="card-shine"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-num">05</div>
+            <h3 class="card-title">Pipeline Safety</h3>
+            <p class="card-desc">Multi-function air vents and pressure relief valves protecting your entire infrastructure.</p>
+            <div class="card-arrow">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <!-- Row 3: 1 + 2 wide -->
+        <a href="https://www.xcadusa.com/product-catalog/riser-valves/" target="_blank" class="product-card reveal" data-reveal-delay="0">
+          <div class="card-img">
+            <img src="https://www.xcadusa.com/wp-content/uploads/2024/10/ALVX44.jpg" alt="Riser Valves" loading="lazy">
+            <div class="card-shine"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-num">06</div>
+            <h3 class="card-title">Riser Valves</h3>
+            <p class="card-desc">Aluminum valve opening elbows, ring lock clamps, and riser valve stems.</p>
+            <div class="card-arrow">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://www.xcadusa.com/product-catalog/canal-gates/" target="_blank" class="product-card product-card--wide reveal" data-reveal-delay="100">
+          <div class="card-img">
+            <img src="https://www.xcadusa.com/wp-content/uploads/2024/10/XGATE.jpg" alt="Canal Gates" loading="lazy">
+            <div class="card-shine"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-num">07</div>
+            <h3 class="card-title">Canal Gates</h3>
+            <p class="card-desc">X-Gate canal gate systems and replacement parts for precise water flow control in open channels.</p>
+            <div class="card-tags">
+              <span>X-Gate Systems</span>
+              <span>Canal Gate Parts</span>
+            </div>
+            <div class="card-arrow">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <!-- Row 4: Hand Line full width -->
+        <a href="https://www.xcadusa.com/product-catalog/hand-line-solid-set/" target="_blank" class="product-card product-card--feature reveal" data-reveal-delay="0">
+          <div class="card-img">
+            <img src="https://www.xcadusa.com/wp-content/uploads/2024/10/Tuff-Tee.png" alt="Hand Line / Solid Set" loading="lazy">
+            <div class="card-shine"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-num">08</div>
+            <h3 class="card-title">Hand Line / Solid Set</h3>
+            <p class="card-desc">Tuff-Tee, 3″ hand line fittings, hook & latch pipe fittings, center riser outlets, and galvanized steel press sleeves for durable field installations.</p>
+            <div class="card-tags">
+              <span>Tuff-Tee</span>
+              <span>3" Fittings</span>
+              <span>Hook & Latch</span>
+              <span>Riser Outlets</span>
+              <span>Press Sleeves</span>
+            </div>
+            <div class="card-arrow">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </div>
+        </a>
+
+        <!-- Wheel Line -->
+        <a href="https://www.xcadusa.com/product-catalog/wheel-line/" target="_blank" class="product-card reveal" data-reveal-delay="0">
+          <div class="card-img" style="background: #0d2a1a;">
+            <img src="https://www.xcadusa.com/wp-content/uploads/2019/06/center-pivot.jpg" alt="Wheel Line" loading="lazy" style="opacity:0.7;">
+            <div class="card-shine"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-num">09</div>
+            <h3 class="card-title">Wheel Line</h3>
+            <p class="card-desc">Levelers, torque couplers, wheels and automatic drain systems for wheel line irrigation.</p>
+            <div class="card-arrow">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </div>
+          </div>
+        </a>
+
+      </div><!-- /products-grid -->
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       BRANDS MARQUEE
+  ══════════════════════════════════════ -->
+  <div class="brands-strip">
+    <div class="brands-label">Our Brand Family</div>
+    <div class="marquee-wrap">
+      <div class="marquee-track" id="marqueeTrack">
+        <div class="marquee-item"><img src="https://www.xcadusa.com/wp-content/uploads/2023/12/XCAD_Logo.png" alt="XCAD USA"></div>
+        <div class="marquee-item"><img src="https://www.xcadusa.com/wp-content/uploads/2019/06/thunderboltendgun-2016logo-white.png" alt="Thunderbolt"></div>
+        <div class="marquee-item"><img src="https://www.xcadusa.com/wp-content/uploads/2023/12/AquaBurst_logo_wht.png" alt="AquaBurst"></div>
+        <div class="marquee-item"><img src="https://www.xcadusa.com/wp-content/uploads/2019/09/black-max-logo-white-1.png" alt="Black Max"></div>
+        <div class="marquee-item"><img src="https://www.xcadusa.com/wp-content/uploads/2020/07/Cyto-X-logo.png" alt="Cyto-X"></div>
+        <!-- duplicated for seamless loop -->
+        <div class="marquee-item"><img src="https://www.xcadusa.com/wp-content/uploads/2023/12/XCAD_Logo.png" alt="XCAD USA"></div>
+        <div class="marquee-item"><img src="https://www.xcadusa.com/wp-content/uploads/2019/06/thunderboltendgun-2016logo-white.png" alt="Thunderbolt"></div>
+        <div class="marquee-item"><img src="https://www.xcadusa.com/wp-content/uploads/2023/12/AquaBurst_logo_wht.png" alt="AquaBurst"></div>
+        <div class="marquee-item"><img src="https://www.xcadusa.com/wp-content/uploads/2019/09/black-max-logo-white-1.png" alt="Black Max"></div>
+        <div class="marquee-item"><img src="https://www.xcadusa.com/wp-content/uploads/2020/07/Cyto-X-logo.png" alt="Cyto-X"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       WHY XCAD
+  ══════════════════════════════════════ -->
+  <section class="why-section">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-left reveal">
+          <div class="section-tag">Why XCAD USA</div>
+          <h2 class="section-title">Built Different.<br><em>Proven in the Field.</em></h2>
+          <p class="section-desc">For over four decades, XCAD USA has engineered irrigation components that outlast the competition — because downtime isn't an option when crops depend on water.</p>
+          <a href="https://www.xcadusa.com/about-xcad/" target="_blank" class="learn-more-link">Our story →</a>
+        </div>
+        <div class="why-right">
+          <div class="why-card reveal" data-reveal-delay="0">
+            <div class="why-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+            </div>
+            <div>
+              <h4>Precision Engineering</h4>
+              <p>Every component designed with exacting tolerances for consistent water distribution across the entire field.</p>
+            </div>
+          </div>
+          <div class="why-card reveal" data-reveal-delay="80">
+            <div class="why-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 9h6M9 12h6M9 15h4"/></svg>
+            </div>
+            <div>
+              <h4>Technical Documentation</h4>
+              <p>Comprehensive performance charts, plumbing guides, and spec sheets for every product line we make.</p>
+            </div>
+          </div>
+          <div class="why-card reveal" data-reveal-delay="160">
+            <div class="why-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div>
+              <h4>Distributor Network</h4>
+              <p>Regional distributors ensure fast parts availability and hands-on expertise wherever you're farming.</p>
+            </div>
+          </div>
+          <div class="why-card reveal" data-reveal-delay="240">
+            <div class="why-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <div>
+              <h4>Complete System Solutions</h4>
+              <p>From source to field — pivot sprinklers to canal gates — designed to work together seamlessly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       DISTRIBUTORS
+  ══════════════════════════════════════ -->
+  <section class="dist-section">
+    <div class="container">
+      <div class="section-head reveal" style="text-align:center; align-items:center;">
+        <div class="section-tag">Authorized Dealers</div>
+        <h2 class="section-title">Trusted Distributors</h2>
+        <p class="section-desc" style="text-align:center; max-width:460px;">Our network of authorized regional distributors ensures product availability and expert support.</p>
+      </div>
+
+      <div class="dist-grid">
+        <a href="https://www.irrigationdistributors.com/wish.html" target="_blank" rel="noopener" class="dist-card reveal" data-reveal-delay="0">
+          <div class="dist-img-wrap">
+            <img src="https://www.xcadusa.com/wp-content/uploads/2019/06/wish.png" alt="Wish Distributor">
+          </div>
+          <span class="dist-name">Irrigation Distributors</span>
+          <span class="dist-link">Visit →</span>
+        </a>
+
+        <a href="https://irricomp.com/" target="_blank" rel="noopener" class="dist-card reveal" data-reveal-delay="100">
+          <div class="dist-img-wrap">
+            <img src="https://www.xcadusa.com/wp-content/uploads/2019/05/icii-2_orig.png" alt="ICII">
+          </div>
+          <span class="dist-name">IrriComp</span>
+          <span class="dist-link">Visit →</span>
+        </a>
+
+        <a href="https://www.bafischer.com/" target="_blank" rel="noopener" class="dist-card reveal" data-reveal-delay="200">
+          <div class="dist-img-wrap">
+            <img src="https://www.xcadusa.com/wp-content/uploads/2019/05/bafischer-logo_1.png" alt="BA Fischer">
+          </div>
+          <span class="dist-name">BA Fischer</span>
+          <span class="dist-link">Visit →</span>
+        </a>
+      </div>
+
+      <div class="dist-footer reveal">
+        <p>Want to buy XCAD products? <a href="https://www.xcadusa.com/distributors/" target="_blank">View the full distributor list</a> to find a dealer near you.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       CATALOG CTA BAND
+  ══════════════════════════════════════ -->
+  <section class="cta-band">
+    <div class="cta-band-bg">
+      <img src="https://www.xcadusa.com/wp-content/uploads/2019/06/center-pivot.jpg" alt="" aria-hidden="true">
+      <div class="cta-band-overlay"></div>
+    </div>
+    <div class="cta-band-content reveal">
+      <div class="cta-band-logo">
+        <img src="https://www.xcadusa.com/wp-content/uploads/2023/12/XCAD_Logo.png" alt="XCAD USA">
+      </div>
+      <h2>The 2026 XCAD Product Catalog</h2>
+      <p>Complete specifications, performance charts, and part numbers for every product in our lineup.</p>
+      <a href="https://www.xcadusa.com/wp-content/uploads/2026/01/2026-XCAD-CAT-fnp-min.pdf" target="_blank" rel="noopener" class="cta-band-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download Free PDF
+      </a>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <img src="https://www.xcadusa.com/wp-content/uploads/2023/12/XCAD_Logo.png" alt="XCAD USA" class="footer-logo">
+            <p>Precision irrigation and agricultural water management solutions. Innovation through Design, Engineering & Experience.</p>
+            <div class="footer-social">
+              <a href="https://www.xcadusa.com/contact-us/" target="_blank" aria-label="Contact">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h5>Products</h5>
+            <a href="https://www.xcadusa.com/product-catalog/pivot-sprinklers/" target="_blank">Pivot Sprinklers</a>
+            <a href="https://www.xcadusa.com/product-catalog/sprinklers/" target="_blank">Sprinklers</a>
+            <a href="https://www.xcadusa.com/product-catalog/center-pivot-2/" target="_blank">Center Pivot</a>
+            <a href="https://www.xcadusa.com/product-catalog/valves/" target="_blank">Valves</a>
+            <a href="https://www.xcadusa.com/product-catalog/pipeline-safety/" target="_blank">Pipeline Safety</a>
+            <a href="https://www.xcadusa.com/product-catalog/canal-gates/" target="_blank">Canal Gates</a>
+            <a href="https://www.xcadusa.com/product-catalog/riser-valves/" target="_blank">Riser Valves</a>
+            <a href="https://www.xcadusa.com/product-catalog/wheel-line/" target="_blank">Wheel Line</a>
+            <a href="https://www.xcadusa.com/product-catalog/hand-line-solid-set/" target="_blank">Hand Line / Solid Set</a>
+          </div>
+
+          <div class="footer-col">
+            <h5>Company</h5>
+            <a href="https://www.xcadusa.com/about-xcad/" target="_blank">About XCAD USA</a>
+            <a href="https://www.xcadusa.com/distributors/" target="_blank">Distributors</a>
+            <a href="https://www.xcadusa.com/resources/" target="_blank">Resources</a>
+            <a href="https://www.xcadusa.com/contact-us/" target="_blank">Contact Us</a>
+          </div>
+
+          <div class="footer-col">
+            <h5>Downloads</h5>
+            <a href="https://www.xcadusa.com/wp-content/uploads/2026/01/2026-XCAD-CAT-fnp-min.pdf" target="_blank">2026 XCAD Catalog</a>
+            <a href="https://www.xcadusa.com/resources/" target="_blank">Technical Charts</a>
+            <a href="https://www.xcadusa.com/resources/" target="_blank">Installation Guides</a>
+            <a href="https://www.xcadusa.com/resources/" target="_blank">Performance Data</a>
+            <a href="https://www.xcadusa.com/resources/" target="_blank">Plumbing Charts</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2026 XCAD USA. All rights reserved.</span>
+        <span class="footer-tagline">Innovation · Engineering · Experience</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
